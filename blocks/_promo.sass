@@ -1,0 +1,50 @@
+.transparency
+    margin-bottom: 60px
+    position: fixed
+    width: 100%
+    z-index: 101
+    height: 50px
+    background-color: #212121
+    .menu
+        display: flex
+        justify-content: space-between
+        list-style: none
+        padding: 10px
+        &_link
+            text-decoration: none
+            color: $main_color
+            &:hover
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+                color: #026872
+
+.promo
+    height: 440px
+    background: url('../img/pattern.png') repeat
+    margin-bottom: 60px
+    &_text
+        margin: 0 auto
+        min-height: 270px
+        position: relative
+        padding: 100px 0 0 0
+        color: #fff
+    &_logo
+        position: absolute
+        right: 82px
+        top: 0px
+        height: 350px
+
+.title
+    &__fz48
+        font-weight: bold
+        font-size: 48px
+        line-height: 60px
+    &__fz16
+        font-weight: bold
+        font-size: 24px
+        line-height: 40px
+.contact
+    display: flex
+    justify-content: space-between
+    width: 260px
+    margin: 0 auto
+    margin-top: 110px

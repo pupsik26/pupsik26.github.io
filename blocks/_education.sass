@@ -1,0 +1,197 @@
+.education
+    margin-bottom: 60px
+    h2, h3
+        text-align: center
+        padding-top: 15px
+        font-size: 30px
+    &_wrapper
+        display: grid
+        grid-template-columns: auto auto
+        grid-gap: 179px
+        padding: 26px 26px
+    &_column
+        min-width: 275px
+    .delay_2_1
+        &::before
+            animation-delay: 0
+            animation-duration: 0.75s
+            animation-timing-function: linear
+            animation-fill-mode: backwards
+    .delay_2_2
+        &::before
+            animation-delay: 0.77s
+            animation-duration: 0.65s
+            animation-timing-function: linear
+            animation-fill-mode: backwards
+    .delay_1_1
+        &::before
+            animation-duration: 0.55s
+            animation-timing-function: linear
+            animation-fill-mode: backwards
+    .delay_1_2
+        &::before
+            animation-delay: 0.52s
+            animation-duration: 0.47s
+            animation-timing-function: linear
+            animation-fill-mode: backwards
+    .delay_1_3
+        &::before
+            animation-delay: 1s
+            animation-duration: 0.45s
+            animation-timing-function: linear
+            animation-fill-mode: backwards
+    &_content
+        position: relative
+        margin-top: 50px
+        min-width: 360px
+        &::before
+            content: ''
+            position: absolute
+            width: 1px
+            height: calc(100% + 50px)
+            background-color: #000
+            left: -53px
+            top: -58px
+            animation: content_wand 1s
+            
+
+        .show_1_1
+            animation: show 1s 1s backwards
+            
+        .show_1_2
+            animation: show 1s 1.1s backwards
+            
+        .show_1_3
+            animation: show 1s 1.2s backwards
+            
+
+        .show_1_4
+            animation: show 1s 1.5s backwards
+            
+        .show_1_5
+            animation: show 1s 1.6s backwards
+            
+        .show_1_6
+            animation: show 1s 1.7s backwards
+            
+
+        .show_1_7
+            animation: show 1s 1.9s backwards
+            
+        .show_1_8
+            animation: show 1s 2.0s backwards
+            
+        .show_1_9
+            animation: show 1s 2.1s backwards
+            
+
+    &_block
+        padding-left: 70px
+        width: 380px
+        min-height: 150px
+    .circle_right
+        z-index: 100
+        &::before
+            animation: small_circle_right 3s cubic-bezier(1, 1, 1, 1.1)
+                 
+    &-h3
+        position: relative
+        display: block
+        padding-top: 40px
+        font-weight: bold
+        font-size: 20px
+        line-height: 30px
+        &::before
+            content: ''
+            position: absolute
+            width: 15px
+            height: 15px
+            border-radius: 100%
+            background: #FFA501
+            left: -60px
+            transform: translateY(50%)
+            z-index: 100
+            animation: small_circle_left 3s cubic-bezier(1, 1, 1, 1.1)
+             
+    &_university
+        position: relative
+        margin-bottom: 0
+        padding-left: 40px
+        font-size: 16px
+        line-height: 18px
+        &::before
+            position: absolute
+            content: ''
+            width: 36px
+            height: 36px
+            border-radius: 100%
+            background: #FFA501
+            left: 0
+            animation: circle 1s
+            
+            z-index: 100
+    &_end
+        position: relative
+        margin-bottom: 0
+        padding-left: 40px
+        font-size: 14px
+        line-height: 18px
+        &::before
+            position: absolute
+            content: ''
+            width: 53px
+            height: 1px
+            background-color: #000
+            left: -53px
+            animation: end_circle 1s
+            
+    &_info
+        margin-top: 8px
+
+    .delay_bcircle_2_1, .delay_wend_2_1
+        &::before
+            animation-delay: 0.5s
+            animation-fill-mode: backwards
+            
+    .delay_bcircle_2_2, .delay_wend_2_2
+        &::before
+            animation-delay: 1s
+            animation-fill-mode: backwards
+
+    .delay_bcircle_1_1, .delay_wend_1_1
+        &::before
+            animation-delay: 0.3s
+            animation-fill-mode: backwards
+    .delay_bcircle_1_2, .delay_wend_1_2
+        &::before
+            animation-delay: 0.8s
+            animation-fill-mode: backwards
+    .delay_bcircle_1_3, .delay_wend_1_3
+        &::before
+            animation-delay: 1.2s
+            animation-fill-mode: backwards
+
+    .show_2_1
+        animation: show 1s 1.2s backwards
+        
+    .show_2_2
+        animation: show 1s 1.3s backwards
+        
+    .show_2_3
+        animation: show 1s 1.4s backwards
+        
+
+    .show_2_4
+        animation: show 1s 1.7s backwards
+        
+    .show_2_5
+        animation: show 1s 1.8s backwards
+        
+    .show_2_6
+        animation: show 1s 1.9s backwards
+
+.animate_observ
+    display: none
+
+.element-show
+    display: grid
